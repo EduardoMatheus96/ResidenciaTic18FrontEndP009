@@ -8,7 +8,6 @@ const routes: Routes = [
   { path: 'f006', component: F006Component },
   { path: 'f007', component: F007Component },
   { path: 'f008', component: F008Component },
-  { path: '', redirectTo: '/f006', pathMatch: 'full' },
 ];
 
 @NgModule({
