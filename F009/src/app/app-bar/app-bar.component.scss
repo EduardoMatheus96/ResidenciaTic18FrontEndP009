@@ -1,0 +1,24 @@
+.app-bar {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #333; // Cor de fundo da AppBar
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+// Estilos para os botões
+.app-bar button {
+  background-color: #007bff; // Cor dos botões
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
